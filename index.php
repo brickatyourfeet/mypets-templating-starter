@@ -22,9 +22,16 @@
         $f3->set('addresses', array('primary' => 
                                '1000 Apple Ln. Seattle, WA 98999',
                                'secondary' => 
-                               '2510 100th Court Tac, Wa 90000')); 
-
+                               '2510 100th Court Tac, Wa 90000'));
         
+        $f3->set('preferredCustomer', true);
+        $f3->set('lastLogin', strtotime('-1 week'));
+        
+        //object
+        $pet = new Pet('fido', 'pink');
+        $f3->set('myPet', $pet);
+        
+        //load a template
         echo Template::instance()->render('pages/info.html');
         
     });

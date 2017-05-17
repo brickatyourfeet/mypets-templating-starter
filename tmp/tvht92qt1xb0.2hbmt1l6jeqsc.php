@@ -8,6 +8,31 @@
     <body>
         <h1><?= $title ?></h1>
         <p>user is logged in as <?= $username ?> using <?= $password ?> </p>
+        
+        <!--conditional content -->
+        <h3>message</h3>
+        <?php if ($preferredCustomer): ?>
+            <strong>thanks for being a pref customer</strong>
+        <?php endif; ?>
+        
+        <?php if ($lastLogin > strtotime ('-1 month')): ?>
+            Welcome back!
+            <?php else: ?>It's been awhillllle
+        <?php endif; ?>
+        
+        <?php if ($myPet->getColor('pink')): ?>
+            
+                <img class="img-rounded pull-right" src="http://3.bp.blogspot.com/-LrFHXaONx-Q/T-c608kEgZI/AAAAAAAJDic/rmXajBexsyI/s1600/pet+pictures+%281%29.gif" alt="pupphoto">
+            
+            
+            <?php else: ?>somethins wrong bro
+        <?php endif; ?>
+        
+        <!-- printing objects -->
+        <h3>my Pet</h3>
+        <p><?= $myPet->getName() ?></p>
+        <p><?= $myPet->getColor() ?></p>
+        
  
  <!--working with expressions -->
         <h3>Temperature</h3>

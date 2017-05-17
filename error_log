@@ -105,3 +105,14 @@
 [16-May-2017 21:32:27 America/Chicago] [328/mypets-templating-starter/index.php:48] Base->run()
 [16-May-2017 21:36:40 America/Chicago] Call to undefined function set() [/home/kbraden/public_html/328/mypets-templating-starter/index.php:18]
 [16-May-2017 21:36:40 America/Chicago] [328/mypets-templating-starter/index.php:48] Base->run()
+[16-May-2017 22:12:07 America/Chicago] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/kbraden/public_html/328/mypets-templating-starter/index.php on line 27
+[16-May-2017 22:13:24 America/Chicago] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/kbraden/public_html/328/mypets-templating-starter/index.php on line 27
+[16-May-2017 22:14:01 America/Chicago] syntax error, unexpected 'else' (T_ELSE), expecting end of file [/home/kbraden/public_html/328/mypets-templating-starter/tmp/tvht92qt1xb0.2hbmt1l6jeqsc.php:20]
+[16-May-2017 22:14:01 America/Chicago] [328/mypets-templating-starter/index.php:31] Preview->render()
+[16-May-2017 22:14:01 America/Chicago] [328/mypets-templating-starter/index.php:52] Base->run()
+[16-May-2017 22:17:56 America/Chicago] Call to a member function getColor() on null [/home/kbraden/public_html/328/mypets-templating-starter/tmp/tvht92qt1xb0.2hbmt1l6jeqsc.php:26]
+[16-May-2017 22:17:56 America/Chicago] [328/mypets-templating-starter/index.php:35] Preview->render()
+[16-May-2017 22:17:56 America/Chicago] [328/mypets-templating-starter/index.php:56] Base->run()
+[16-May-2017 22:18:34 America/Chicago] Call to a member function getName() on null [/home/kbraden/public_html/328/mypets-templating-starter/tmp/tvht92qt1xb0.2hbmt1l6jeqsc.php:25]
+[16-May-2017 22:18:34 America/Chicago] [328/mypets-templating-starter/index.php:35] Preview->render()
+[16-May-2017 22:18:34 America/Chicago] [328/mypets-templating-starter/index.php:56] Base->run()

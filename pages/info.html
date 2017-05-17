@@ -8,6 +8,31 @@
     <body>
         <h1>{{ @title }}</h1>
         <p>user is logged in as {{ @username }} using {{ @password }} </p>
+        
+        <!--conditional content -->
+        <h3>message</h3>
+        <check if="{{@preferredCustomer }}">
+            <strong>thanks for being a pref customer</strong>
+        </check>
+        
+        <check if ="{{ @lastLogin > strtotime ('-1 month') }}">
+            <true>Welcome back!</true>
+            <false>It's been awhillllle</false>
+        </check>
+        
+        <check if ="{{@myPet->getColor('pink')}}">
+            <true>
+                <img class="img-rounded pull-right" src="http://3.bp.blogspot.com/-LrFHXaONx-Q/T-c608kEgZI/AAAAAAAJDic/rmXajBexsyI/s1600/pet+pictures+%281%29.gif" alt="pupphoto">
+            
+            </true>
+            <false>somethins wrong bro</false>
+        </check>
+        
+        <!-- printing objects -->
+        <h3>my Pet</h3>
+        <p>{{ @myPet->getName() }}</p>
+        <p>{{ @myPet->getColor() }}</p>
+        
  
  <!--working with expressions -->
         <h3>Temperature</h3>
