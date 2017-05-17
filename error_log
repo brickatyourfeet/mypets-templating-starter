@@ -96,3 +96,12 @@
 [06-May-2017 16:21:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/tina/public_html/328/hello/tmp/3mbuebt34ig4c.3vzb1jrga60wg.php on line 32
 [06-May-2017 16:21:29 America/Chicago] Fatal error: syntax error, unexpected '}'
 [06-May-2017 16:21:29 America/Chicago] [328/hello/tmp/3mbuebt34ig4c.3vzb1jrga60wg.php:32] 
+[16-May-2017 21:18:04 America/Chicago] Call to undefined function set() [/home/kbraden/public_html/328/mypets-templating-starter/index.php:18]
+[16-May-2017 21:18:04 America/Chicago] [328/mypets-templating-starter/index.php:25] Base->run()
+[16-May-2017 21:19:39 America/Chicago] Call to undefined function set() [/home/kbraden/public_html/328/mypets-templating-starter/index.php:18]
+[16-May-2017 21:19:39 America/Chicago] [328/mypets-templating-starter/index.php:25] Base->run()
+[16-May-2017 21:32:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'a' (T_STRING) in /home/kbraden/public_html/328/mypets-templating-starter/index.php on line 43
+[16-May-2017 21:32:27 America/Chicago] Call to undefined function set() [/home/kbraden/public_html/328/mypets-templating-starter/index.php:18]
+[16-May-2017 21:32:27 America/Chicago] [328/mypets-templating-starter/index.php:48] Base->run()
+[16-May-2017 21:36:40 America/Chicago] Call to undefined function set() [/home/kbraden/public_html/328/mypets-templating-starter/index.php:18]
+[16-May-2017 21:36:40 America/Chicago] [328/mypets-templating-starter/index.php:48] Base->run()
